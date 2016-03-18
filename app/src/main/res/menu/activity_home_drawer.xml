@@ -16,7 +16,7 @@
             android:title="Settings" />
         <item
             android:id="@+id/nav_aboutus"
-            android:icon="@drawable/settingsicon"
+            android:icon="@android:drawable/ic_menu_help"
             android:title="AboutUs" />
     </group>
 

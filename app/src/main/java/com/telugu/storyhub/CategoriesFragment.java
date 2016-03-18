@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.security.KeyStore;
+
 public class CategoriesFragment extends Fragment {
 
     private RecyclerView mRecyclerView_Categories;
@@ -24,6 +26,7 @@ public class CategoriesFragment extends Fragment {
         mLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView_Categories.setLayoutManager(mLinearLayoutManager);
         mRecyclerView_Categories.setAdapter(categoriesFragment_adapter);
+
 
         return view;
     }

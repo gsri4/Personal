@@ -42,7 +42,7 @@ public class CategoriesFragment_Adapter extends RecyclerView.Adapter<CategoriesF
         holder.detailView_CardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent detailIntent = new Intent(activity,StoryDetailView.class);
+                Intent detailIntent = new Intent(activity,StoriesList.class);
                 activity.startActivity(detailIntent);
             }
         });
